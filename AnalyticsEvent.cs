@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Scrips.Analytics
+namespace Marmary.Analytics
 {
     /// <summary>
     /// Represents an abstract base class for analytics events.

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Scrips.Analytics
+namespace Marmary.Analytics
 {
     /// <summary>
     /// Represents a service for initializing and tracking analytics events.

@@ -4,7 +4,7 @@ using Unity.Services.Core;
 using UnityEngine;
 using UnityEngine.UnityConsent;
 
-namespace Scrips.Analytics
+namespace Marmary.Analytics
 {
     /// <summary>
     ///     The UnityAnalyticsService class provides functionality to integrate and manage analytics

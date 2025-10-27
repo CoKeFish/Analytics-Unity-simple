@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Scrips.Analytics.Events
+namespace Marmary.Analytics.Events
 {
     /// <summary>
     /// Represents the MyEvent analytics event.

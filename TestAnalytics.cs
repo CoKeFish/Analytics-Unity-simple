@@ -1,7 +1,7 @@
-using Scrips.Analytics.Events;
+using Marmary.Analytics.Events;
 using UnityEngine;
 
-namespace Scrips.Analytics
+namespace Marmary.Analytics
 {
     /// <summary>
     /// Represents a class used for handling analytics in the context of Unity applications.
@@ -34,9 +34,9 @@ namespace Scrips.Analytics
         /// <exception cref="System.Exception">
         /// If the initialization of the analytics service fails or encounters an error.
         /// </exception>
-        /// <seealso cref="Scrips.Analytics.UnityAnalyticsService"/>
-        /// <seealso cref="Scrips.Analytics.IAnalyticsService"/>
-        /// <seealso cref="Scrips.Analytics.Events.MyEvent"/>
+        /// <seealso cref="UnityAnalyticsService"/>
+        /// <seealso cref="IAnalyticsService"/>
+        /// <seealso cref="MyEvent"/>
         private async void Start()
         {
             // Inicializa Unity Services
