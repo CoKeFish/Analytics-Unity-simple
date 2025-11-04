@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿#if ANALYTICS_ENABLED
+using System.Threading.Tasks;
 using Unity.Services.Analytics;
 using Unity.Services.Core;
 using UnityEngine;
@@ -76,3 +77,4 @@ namespace Marmary.Analytics
         #endregion
     }
 }
+#endif

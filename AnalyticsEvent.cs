@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if ANALYTICS_ENABLED
+using System.Collections.Generic;
 
 namespace Marmary.Analytics
 {
@@ -37,3 +38,4 @@ namespace Marmary.Analytics
         #endregion
     }
 }
+#endif

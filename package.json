@@ -1,0 +1,25 @@
+{
+  "name": "com.marmary.analytics",
+  "version": "1.0.0",
+  "displayName": "Marmary Analytics",
+  "description": "Analytics system for Unity using Unity Services Analytics for tracking events.",
+  "unity": "2020.3",
+  "unityRelease": "0f1",
+  "type": "library",
+  "author": {
+    "name": "Rodión Romanovich Tabares Correa",
+    "email": "rrtc26@gmail.com"
+  },
+  "keywords": [
+    "unity",
+    "analytics",
+    "unity-services",
+    "tracking",
+    "events"
+  ],
+  "dependencies": {
+    "com.marmary.utils": "1.0.0"
+  },
+  "samples": []
+}
+

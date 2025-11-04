@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿#if ANALYTICS_ENABLED
+using System.Threading.Tasks;
 
 namespace Marmary.Analytics
 {
@@ -32,3 +33,4 @@ namespace Marmary.Analytics
         #endregion
     }
 }
+#endif

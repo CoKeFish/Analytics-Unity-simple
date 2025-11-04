@@ -1,3 +1,4 @@
+#if ANALYTICS_ENABLED
 using Marmary.Analytics.Events;
 using UnityEngine;
 
@@ -57,3 +58,4 @@ namespace Marmary.Analytics
         #endregion
     }
 }
+#endif

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if ANALYTICS_ENABLED
+using System.Collections.Generic;
 
 namespace Marmary.Analytics.Events
 {
@@ -88,3 +89,4 @@ namespace Marmary.Analytics.Events
         #endregion
     }
 }
+#endif
