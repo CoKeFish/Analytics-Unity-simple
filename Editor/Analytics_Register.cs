@@ -1,25 +1,38 @@
 #if UNITY_EDITOR
 
+using Marmary.Utils.Editor.ModuleSymbols;
 using UnityEditor;
 
-using MyCompany.ModuleSymbols;
-
-namespace Marmary.Analytics
+namespace Marmary.Analytics.Editor
 
 {
 
-    // Registro de símbolos para Analytics
-    // Este registro solo se ejecutará si MODULE_SYMBOLS_SYSTEM_ENABLED está definido
 
 #if MODULE_SYMBOLS_SYSTEM_ENABLED
 
+    /// <summary>
+    /// Provides functionality for registering analytics-related components within the Marmary.Analytics namespace.
+    /// </summary>
+    /// <remarks>
+    /// This static class is initialized automatically through Unity's editor process
+    /// and is part of the Marmary.Analytics module. It is designed to handle tasks related
+    /// to analytics registration.
+    /// </remarks>
     [InitializeOnLoad]
 
-    public static class Analytics_Register
+    public static class AnalyticsRegister
 
     {
-
-        static Analytics_Register()
+        /// <summary>
+        /// Registers the "Analytics" module and its associated conditional compilation symbols into the
+        /// <see cref="ModuleSymbolRegistry"/> at editor initialization.
+        /// </summary>
+        /// <remarks>
+        /// The "Analytics" module provides support for integrating analytics features using Unity Services.
+        /// This registration defines a symbol, "ANALYTICS_ENABLED", that can be enabled or disabled
+        /// to toggle analytics functionality in the project. The default setting for this symbol is disabled.
+        /// </remarks>
+        static AnalyticsRegister()
 
         {
 
@@ -27,9 +40,9 @@ namespace Marmary.Analytics
 
             {
 
-                moduleName = "Analytics",
+                ModuleName = "Analytics",
 
-                options = new SymbolOption[]
+                Options = new[]
 
                 {
 
